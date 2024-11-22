@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(192, 171, 139);
+    text-align: center;
+    direction: rtl;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.li{
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow:10px 5px 6px  rgb(70, 53, 37);
+    margin: 10px;
+    background-color: rgb(214, 176, 141);
+    border-style: solid;
+    border-color: rgb(144, 116, 90);
+    padding: 10px;
+    margin-inline: 50px;
+}
+.img{
+    width: 300px;
+    height: 200px;
+    margin: 50px;
+    border-radius: 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
