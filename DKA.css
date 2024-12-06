@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(129, 109, 81);
+    background-color: rgb(192, 171, 139);
     text-align: center;
     direction: rtl;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -24,11 +24,12 @@ body{
     border-radius: 10px;
     box-shadow:10px 5px 6px  rgb(70, 53, 37);
     margin: 10px;
-    background-color: rgb(194, 163, 135);
+    background-color: rgb(192, 171, 139);
     border-style: solid;
     border-color: rgb(144, 116, 90);
     padding: 10px;
     margin-inline: 50px;
+}
 a{
     text-decoration: none;
 }
