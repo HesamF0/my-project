@@ -1,41 +1,32 @@
 <?php
 include("header.html")
 ?>
+<link rel="stylesheet" href="register.css">
 <form action="action_register.php" method="post">
-    <table class="table2">
-        <tr>
-            <td class="register_table_text">نام </td>
-            <td><input type="text" id="realname" name="realname"></td>
-        </tr>
-        <tr>
-            <td class="register_table_text"> نام خانوادگی</td>
-            <td><input type="text" id="username" name="username"></td>
-        </tr>
-        <tr>
-            <td class="register_table_text">نام کاربری</td>
-            <td><input type="text" id="password" name="password"></td>
-        </tr>
-        <tr>
-            <td class="register_table_text">رمز عبور</td>
-            <td><input type="text" id="password" name="password"></td>
-        </tr>
-        <tr>
-            <td class="register_table_text">تکرار رمز عبور</td>
-            <td><input type="text" id="repassword" name="repassword"></td>
-        </tr>
-        <tr>
-            <td class="register_table_text">ایمیل</td>
-            <td><input type="text" id="email" name="email"></td>
-        </tr>
-        <tr>
-            <td class="register_table_text">شماره تلفن</td>
-            <td><input type="text" id="email" name="email"></td>
-        </tr>
-        <tr>
-            <td class="register_table_text"><input type="submit" value="ثبت نام">
-            <input type="reset" value="ریست"></td>
-        </tr>
-    </table>
+<div class="imgcontainer">
+    <img src="profile.jpg" alt="Avatar" class="avatar">
+  </div>
+<div class="container">
+    <label for="username"><b>نام</b></label>
+    <input type="text" placeholder="وارد کردن نام کابری" name="username" required>
+    <label for="username"><b>نام خانوادگی</b></label>
+    <input type="text" placeholder="وارد کردن نام خانوادگی" name="username" required>
+    <label for="username"><b>نام کاربری</b></label>
+    <input type="text" placeholder="وارد کردن نام کابری" name="username" required>
+    <label for="username"><b>شماره تلفن</b></label>
+    <input type="text" placeholder="وارد کردن نام کابری" name="username" required>
+
+    <label for="email"><b>ایمیل</b></label>
+    <input type="email" placeholder="وارد کردن ایمیل" name="email" required>
+
+    <label for="passw"><b>رمز عبور</b></label>
+    <input type="password" placeholder="وارد کردن رمز عبور" name="passw" required>
+
+    <label for="repassw"><b>تکرار رمز عبور</b></label>
+    <input type="password" placeholder="تکرار رمز عبور" name="repassw" required>
+
+    <button type="submit">ورود</button>
+  </div>
 </form>
 <?php
 include("footer.html")
